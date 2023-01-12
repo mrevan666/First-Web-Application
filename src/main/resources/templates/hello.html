@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+</head>
+<body>
+<h1 th:text="${x}"></h1>
+
+<form action="/post" method="POST">
+    Enter your name:<input type="text" name="name"> <br><br>
+    Enter your surname: <input type="text" name="surname"> <br>
+    <button type="submit" style="width: 200px;background: darkblue;color: white;height: 50px;margin-top: 20px;">Submit</button>
+    <button type="reset" style="width: 200px;background: darkblue;color: white;height: 50px;margin-top: 20px">Reset</button>
+</form>
+</body>
+</html>
